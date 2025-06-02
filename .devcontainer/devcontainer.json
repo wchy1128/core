@@ -16,7 +16,11 @@
     "-e",
     "GIT_EDITOR=code --wait",
     "--security-opt",
-    "label=disable"
+    "label=disable",
+    "-e",
+    "HTTP_PROXY=http://172.17.48.1:7890",
+    "-e",
+    "HTTPS_PROXY=http://172.17.48.1:7890"
   ],
   "customizations": {
     "vscode": {
